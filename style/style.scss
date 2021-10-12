@@ -1,0 +1,73 @@
+$fond-gris: #F2F2F2;
+$success: #5DA423;
+$warning: #C60F13;
+$light: #F2F2F2;
+$info: #2BA6CB;
+$secondary: #4D4D4D;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.nav-bar {
+    background-color: $fond-gris;
+
+}
+
+button.btn-secondary {
+    border-radius: 0px;
+    padding: 0px 25px;
+    border: 0.5px solid black;
+}
+
+button.btn-secondary:hover {
+    background-color: #333333;
+}
+
+button.btn-info {
+    border-radius: 0px;
+    padding: 5px 60px;
+    color: white;
+    border: 0.5px solid $secondary;
+}
+
+button.btn-info:hover {
+    color: white;
+    background-color: #2284A1;
+}
+
+button.btn-success {
+    color: white;
+    border: 0.5px solid $secondary;
+}
+
+button.btn-success:hover {
+    background-color: #457A1A;
+    color: white;
+}
+
+button.btn-warning {
+    border: 0.5px solid $secondary;
+}
+
+button.btn-warning:hover {
+    background-color: #970B0E;
+}
+
+button.btn-light {
+    border: 0.5px solid $secondary;
+}
+
+button.btn-light:hover {
+    background-color: #D0D0D0;
+}
+
+button.little-btn {
+    font-size: 15px;
+}
+
+#minuteur {
+    font-size: 100px;
+}
+
+p.text-muted {
+    font-size: 15px;
+}
